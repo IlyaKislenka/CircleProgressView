@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.example.i_kislenko.circleprogressview.CircleProgressLayout
+        android:id="@+id/circle_layout"
+
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+
+        android:layout_margin="5dp"
+
+        app:circleColor="@android:color/black"
+        app:circleWidth="10dp"
+
+        app:progressColor="@android:color/white"
+        app:progressWidth="5dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+
+            android:fontFamily="@font/avenir_roman"
+
+            android:gravity="center"
+
+            android:includeFontPadding="false"
+
+            android:padding="15dp"
+
+            android:text="HERE IS YOUR TEXT OR CONTENT" />
+
+
+    </com.example.i_kislenko.circleprogressview.CircleProgressLayout>
+
+
+    <com.example.i_kislenko.circleprogressview.CircleProgressLayout
+        android:id="@+id/less_circle_layout"
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:layout_alignParentEnd="true"
+
+        android:layout_margin="5dp"
+
+        app:circleColor="@color/colorPrimaryDark"
+        app:circleWidth="15dp"
+
+        app:progressColor="@color/colorAccent"
+        app:progressWidth="8dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+
+            android:fontFamily="@font/avenir_roman"
+
+            android:gravity="center"
+
+            android:includeFontPadding="false"
+
+            android:padding="15dp"
+
+            android:text="HERE IS YOUR TEXT OR CONTENT"
+
+            android:textSize="8sp" />
+
+
+    </com.example.i_kislenko.circleprogressview.CircleProgressLayout>
+
+
+    <com.example.i_kislenko.circleprogressview.CircleProgressLayout
+        android:id="@+id/less_than_circle_layout"
+
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+
+        android:layout_centerInParent="true"
+
+        android:layout_margin="5dp"
+
+        app:circleColor="@android:color/holo_orange_light"
+        app:circleWidth="5dp"
+
+        app:progressColor="@android:color/holo_green_dark"
+        app:progressWidth="3dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+
+            android:fontFamily="@font/avenir_roman"
+
+            android:gravity="center"
+
+            android:includeFontPadding="false"
+
+            android:padding="15dp"
+
+            android:text="HERE IS YOUR TEXT OR CONTENT"
+
+            android:textSize="6sp" />
+
+
+    </com.example.i_kislenko.circleprogressview.CircleProgressLayout>
+
+</RelativeLayout>
